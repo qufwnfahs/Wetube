@@ -9,9 +9,11 @@
     "@babel/preset-env": "^7.5.5",
     "express": "^4.17.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
   "scripts": {
-    "start": "babel-node index.js"
+    "start": "nodemon --exec babel-node index.js"
   },
   "author": "qufwnfahs",
   "license": "ISC"
