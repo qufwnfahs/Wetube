@@ -4,7 +4,7 @@ export const videos = [
         title: "Video 1",
         description: "Test Video 1",
         views: 24,
-        videoFile: "https://archive.org/details/BigBuckBunny_124",
+        videoFile: "https://ia800300.us.archive.org/17/items/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
         creator: {
             id: 1001,
             name: "Shinco",
@@ -16,7 +16,7 @@ export const videos = [
         title: "Video 2",
         description: "Test Video 2",
         views: 24,
-        videoFile: "https://archive.org/details/BigBuckBunny_124",
+        videoFile: "https://ia800300.us.archive.org/17/items/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
         creator: {
             id: 1001,
             name: "Shinco",
@@ -28,7 +28,7 @@ export const videos = [
         title: "Video 3",
         description: "Test Video 3",
         views: 24,
-        videoFile: "https://archive.org/details/BigBuckBunny_124",
+        videoFile: "https://ia800300.us.archive.org/17/items/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
         creator: {
             id: 1001,
             name: "Shinco",
@@ -40,7 +40,7 @@ export const videos = [
         title: "Video 4",
         description: "Test Video 4",
         views: 24,
-        videoFile: "https://archive.org/details/BigBuckBunny_124",
+        videoFile: "https://ia800300.us.archive.org/17/items/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
         creator: {
             id: 1001,
             name: "Shinco",
