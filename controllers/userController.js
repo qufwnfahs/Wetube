@@ -3,7 +3,7 @@ import routes from "../routes";
 export const getJoin = (req, res) => res.render("join", { pageTitle: "Join" });
 export const postJoin = (req, res) => {
     const {
-        body: {name, email, password, password2 }
+        body: { password, password2 }
     } = req;
 
     if (password !== password2) {
