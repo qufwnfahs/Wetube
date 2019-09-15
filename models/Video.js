@@ -16,7 +16,7 @@ const VideoSchema = new mongoose.Schema({
     },
     createdAt: {
         type: Date,
-        default: Date.new
+        default: Date.now
     },
     comments: [ 
         {
