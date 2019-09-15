@@ -20,6 +20,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(morgan("dev"));
 
+// Handle Get Upload Video
+app.use("/uploads", express.static("uploads"));
+
 // local MiddleWares
 app.use(localMiddlewares);
 

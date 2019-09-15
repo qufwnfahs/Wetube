@@ -5,7 +5,6 @@ export const home = async(req, res) => {
     try {
         const videos = await Video.find({});
         res.render("home", { pageTitle: "Home", videos });
-        Video.remove();
     }
     catch(error) {
         console.log(error);
@@ -27,7 +26,6 @@ export const postUpload = async(req, res) => {
         title,
         description
     });
-    console.log(newVideo);
     res.redirect(routes.videoDetail(newVideo.id));
 }
 
